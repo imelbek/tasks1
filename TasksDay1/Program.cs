@@ -20,6 +20,7 @@ double AC = Math.Abs(A - C);
 double BC = Math.Abs(B - C);
 double AB = AC + BC;
 
+
 Console.WriteLine(AC.ToString("F2"));
 Console.WriteLine(BC.ToString("F2"));
 Console.WriteLine((AC + BC).ToString("F2"));
